@@ -1580,6 +1580,22 @@ textarea:-moz-placeholder {
 .inner-section {
     color: #ffffff;
 }
+
+.themeix-tool:hover{
+	transform: scale(1);
+	-webkit-animation: social 2s linear;
+    animation: social 2s linear;
+}
+@-webkit-keyframes social {
+      0% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+@keyframes social {
+      0% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
 /* ==========================================
            18. scrollUP
    ========================================== */
